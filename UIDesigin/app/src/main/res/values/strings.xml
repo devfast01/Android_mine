@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UI Desigin</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="android">Android</string>
+</resources>

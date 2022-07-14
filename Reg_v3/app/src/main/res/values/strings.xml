@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hasaba alyş</string>
+    <string name="agza_bol">Onile Platformamyza agza bolun !</string>
+    <string name="lastName">Familiyanyz</string>
+    <string name="firstName">Adynyz</string>
+    <string name="button">Düwme</string>
+    <string name="welcome">Hoş geldiňiz !</string>
+    <string name="successfuly">Üstünlikli amala aşyryldy !</string>
+
+
+</resources>

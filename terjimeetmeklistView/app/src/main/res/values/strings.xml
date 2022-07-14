@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">terjime etmek listView </string>
+    <string name="Begli">Begli</string>
+    <string name="Jora">Jora</string>
+    <string name="Myrat">Myrat</string>
+    <string name="Azat">Azat</string>
+    <string name="Allaberdi">Allaberdi</string>
+
+    <string name="Tokyo">Tokyo</string>
+    <string name="Pariz">Pariz</string>
+    <string name="Gonkong">Gonkong</string>
+    <string name="Moskow">Moskow</string>
+    <string name="Berlin">Berlin</string>
+</resources>

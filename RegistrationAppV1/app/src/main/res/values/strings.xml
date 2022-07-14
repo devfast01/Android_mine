@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RegistrationAppV1</string>
+    <string name="agza_bol">Onile Platformamyza agza bolun !</string>
+    <string name="lastName">Last Name</string>
+    <string name="firstName">First Name</string>
+    <string name="button">Button</string>
+
+</resources>

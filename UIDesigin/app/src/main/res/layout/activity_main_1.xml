@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="100dp">
+
+    <Button
+        android:id="@+id/btnSayHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTxtName"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Say Hello" />
+
+    <Button
+        android:id="@+id/btnSalamDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSayHello"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:text="Salam Dos" />
+
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/txtHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSayHello"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Hello"
+        android:textSize="20dp"
+
+        />
+
+</RelativeLayout>

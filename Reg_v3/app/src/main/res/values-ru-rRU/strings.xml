@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Регистрация</string>
+    <string name="agza_bol">Подпишитесь на нашу онлайн-платформу !</string>
+    <string name="lastName">Фамилия</string>
+    <string name="firstName">Имя</string>
+    <string name="button">Кнопка</string>
+    <string name="welcome">Добро пожаловать !</string>
+    <string name="successfuly"> Успешно реализовано!</string>
+
+</resources>

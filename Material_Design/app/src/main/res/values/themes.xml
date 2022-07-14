@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Material_Design" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+
+    </style>
+</resources>

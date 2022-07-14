@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">terjime </string>
+    <string name="Begli">Welliyew</string>
+    <string name="Jora">Abdullayew</string>
+    <string name="Myrat">Babamyradow</string>
+    <string name="Azat">Jumanazarow</string>
+    <string name="Allaberdi">Nurberdiyew</string>
+
+    <string name="Tokyo">Yaponya</string>
+    <string name="Pariz">Fransiya</string>
+    <string name="Gonkong">Singapur</string>
+    <string name="Berlin">Germanya</string>
+    <string name="Moskow">Russia</string>
+
+</resources>

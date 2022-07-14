@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/moviesRelLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <CheckBox
+            android:id="@+id/checkboxBegli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begli"
+            android:checked="true"
+
+            />
+        <CheckBox
+            android:id="@+id/checkboxMyrat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Myrat"
+            android:checked="true"
+            android:layout_toRightOf="@+id/checkboxBegli"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkboxJora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jora"
+            android:checked="false"
+            android:layout_toRightOf="@+id/checkboxMyrat"
+            android:layout_marginLeft="30dp"
+
+            />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rgMaritalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moviesRelLayout"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+
+        <RadioButton
+            android:id="@+id/rbMarried"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/moviesRelLayout"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Married"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rbSingle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/moviesRelLayout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Single"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rbInRel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="In a Relationship"
+
+            />
+
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+</RelativeLayout>

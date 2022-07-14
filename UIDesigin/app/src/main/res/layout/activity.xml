@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/firstRelLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:layout_toRightOf="@+id/txtName"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_toRightOf="@+id/txtLastName"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstRelLayout"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="Hello Android"
+        />
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say Hello"
+        android:layout_below="@+id/txtHello"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+</RelativeLayout>

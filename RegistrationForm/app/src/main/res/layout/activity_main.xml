@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtTextFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="first Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/TextLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edtTextFirstName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edtTextFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/edtTextFirstName"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/TextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextLastName"
+        app:layout_constraintStart_toStartOf="@+id/TextLastName"
+        app:layout_constraintTop_toBottomOf="@+id/TextLastName"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:onClick="onRegisterBtnClick"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="@+id/TextEmail"
+        app:layout_constraintStart_toStartOf="@+id/TextEmail"
+        app:layout_constraintTop_toBottomOf="@+id/TextEmail"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="FirstName"
+        app:layout_constraintEnd_toEndOf="@+id/btnRegister"
+        app:layout_constraintStart_toStartOf="@+id/btnRegister"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/edtTextLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="LastName"
+        app:layout_constraintEnd_toEndOf="@+id/textFirstName"
+        app:layout_constraintStart_toStartOf="@+id/textFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/textFirstName"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/edttextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="@+id/edtTextLastName"
+        app:layout_constraintStart_toStartOf="@+id/edtTextLastName"
+        app:layout_constraintTop_toBottomOf="@+id/edtTextLastName"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
